@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "https://nettisuomi.github.io",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "build:ui": "@powershell Remove-Item -Recurse -Force dist && cd ../frontend && npm run build && @powershell Copy-Item dist -Recurse ../backend",
+    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
+  },
+  "author": "Oscar Escartin",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3"
+  }
+}

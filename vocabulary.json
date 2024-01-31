@@ -1,0 +1,32 @@
+{
+  "vocabulary": [
+    { "word": "aika", "href": "./recordings/aika.wav", "id": 1 },
+    { "word": "ajatella", "href": "./recordings/ajatella.wav", "id": 2 },
+    { "word": "ananas", "href": "./recordings/ananas.wav", "id": 3 },
+    { "word": "appelsiini", "href" : "./recordings/appelsiini.wav", "id": 3 },
+    { "word": "aueta", "href": "./recordings/aueta.wav", "id": 4 },
+    { "word": "broileri", "href": "./recordings/broileri.wav", "id": 5 },
+    { "word": "gramma", "href": "./recordings/gramma.wav", "id": 6 },
+    { "word": "halpa", "href": "./recordings/halpa.wav", "id": 7 },
+    { "word": "henkilöllisyystodistus", "href": "./recordings/henkilöllisyystodistus.wav", "id": 8 },
+    { "word": "homejuusto", "href": "./recordings/homejuusto.wav", "id": 9 },
+    { "word": "hylly", "href": "./recordings/hylly.wav", "id": 10 },
+    { "word": "ihan", "href": "./recordings/ihan.wav", "id": 11 },
+    { "word": "jäätelö", "href": "./recordings/jäätelö.wav", "id": 12 },
+    { "word": "jauheliha", "href": "./recordings/jauheliha.wav", "id": 13 },
+    { "word": "jono", "href": "./recordings/jono.wav", "id": 14 },
+    { "word": "jotain", "href": "./recordings/jotain.wav", "id": 15 },
+    { "word": "juhlat", "href": "./recordings/juhlat.wav", "id": 16 },
+    { "word": "juusto", "href": "./recordings/juusto.wav", "id": 17 },
+    { "word": "kaali", "href": "./recordings/kaali.wav", "id": 18 },
+    { "word": "kaappi", "href": "./recordings/kaappi.wav", "id": 19 },
+    { "word": "kala", "href": "./recordings/kala.wav", "id": 20 },
+    { "word": "kallis", "href": "./recordings/kallis.wav", "id": 21 },
+    { "word": "kana", "href": "./recordings/kana.wav", "id": 22 },
+    { "word": "kananmuna", "href": "./recordings/kananmuna.wav", "id": 23 },
+    { "word": "katsoa", "href": "./recordings/katsoa.wav", "id": 24 },
+    { "word": "kokata", "href": "./recordings/kokata.wav", "id": 25 },
+    { "word": "nähdä", "href": "./recordings/nähdä.wav", "id": 26 },
+    { "word": "syödä", "href": "./recordings/syödä.wav", "id": 27 }
+  ]
+}
